@@ -1,0 +1,30 @@
+#background-div {
+    background-color: rgb(236, 247, 254);
+    height: 100vw;
+
+}
+#foreground-div {
+    width: 500px;
+    height: 650px;
+    background-color: white;
+    /* border: 2px solid #000000; */
+    margin: 0 auto;
+
+}
+.heading-content {
+    text-align: center;
+    
+}
+.input{
+    margin-left: 40px;
+}
+#button {
+    background-color: rgb(92, 137, 237);
+    width: 70px;
+    height: 30px;
+    
+
+}
+.button-div{
+   margin-left: 150px;
+}
