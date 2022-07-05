@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Page</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <div id="background-div">
+       <div id="foreground-div">
+        <h3 class="heading-content">Application Form</h3>
+        <div class="input">
+            <form method="get">
+                <label for="ad">Ad:</label><br>
+                <input type="text" id="ad" name="ad" style="margin-bottom:20px;"><br>
+
+                <label  for="soyad">Soyad:</label><br>
+                <input type="text" id="soyad" name="syd" style="margin-bottom:20px;"><br>
+
+                <label for="sifre">Sifre:</label><br>
+                <input type="password" id="sifre" name="pwd" style="margin-bottom:20px;"><br>
+
+                <span>
+                    Cinsinizi secin:
+                </span> <br>
+                <label for="male">K</label>
+                <input type="radio" name="gender" id="male" style="margin-right:40px;">
+                <label for="female">Q</label>
+                <input type="radio" name="gender" id="female" style="margin-bottom:20px;"><br>
+
+                <span>
+                    Bitirdiyiniz tehsil derecesini secin:
+                </span> <br>
+                
+                <input type="checkbox" name="orta" id="orta">
+                <label for="orta">Orta</label> <br>
+                <input type="checkbox" name="bakalavr" id="bakalavr">
+                <label for="bakalavr">Bakalavr</label> <br>
+                <input type="checkbox" name="magistr" id="magistr">
+                <label for="magistr">Magistr</label> <br>
+                <input type="checkbox" name="doktor" id="doktor">
+                <label for="doktor" >Doktor</label> <br>
+                <div style="margin-top:20px;">
+                <label for="yas" >Yas:</label><br>
+                <input type="number" min="0" max="120" name="age" id="yas" style="margin-bottom:20px;"><br>
+                <label for="boy">Boy:</label><br>
+                <input type="number" min="0" max="250" name="height" id="boy" style="margin-bottom:20px;"><br>
+                <label for="weight">Ceki:</label><br>
+                <input type="number" min="0" max="250" name="kilo" id="weight"><br>
+                
+            </div>
+            <div class="button-div">
+                <button type="submit" id="button">Tesdiqle</button>
+            </div>
+            
+            </form>
+        </div>
+
+
+       </div> 
+    </div>
+</body>
+</html>
